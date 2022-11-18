@@ -10,6 +10,7 @@ export class CdkLambdaNode18Stack extends Stack {
     new NodejsFunction(this, "Node18", {
       entry: "lib/lambda/node-18.ts",
       runtime: Runtime.NODEJS_18_X,
+      memorySize: 512,
       bundling: {
         externalModules: ["@aws-sdk/*"],
       },
