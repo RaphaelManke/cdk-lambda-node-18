@@ -23,6 +23,7 @@
   "dependencies": {
     "@aws-sdk/client-sts": "^3.213.0",
     "aws-cdk-lib": "2.51.0",
+    "aws-sdk": "^2.1257.0",
     "constructs": "10.1.163",
     "esbuild": "^0.15.14",
     "source-map-support": "0.5.21"
